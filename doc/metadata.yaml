@@ -3,6 +3,7 @@ github_branch: RTC02A
 github_repo: RTC02
 github_url: https://github.com/mlab-modules/RTC02
 homepage: false
+image_title: doc/gen/img/RTC02-top.png
 images:
 - doc/img/RTC02A_top_small.jpg
 - doc/img/RTC02A_QRcode.png
