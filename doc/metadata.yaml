@@ -1,4 +1,5 @@
-description: null
+description: Real Time Clock controlled through I2C with battery backup. The accuracy
+  of the order of 20 ppm.
 github_branch: RTC02A
 github_repo: RTC02
 github_url: https://github.com/mlab-modules/RTC02
