@@ -6,7 +6,16 @@ homepage: false
 images:
 - doc/img/RTC02A_top_small.jpg
 - doc/img/RTC02A_QRcode.png
+- doc/gen/img/RTC02-top.png
+- doc/gen/img/RTC02-bottom.png
+- doc/gen/RTC02-schematic.svg
+- doc/gen/img/RTC02-bottom.svg
+- doc/gen/img/RTC02-top.svg
+- hw/cam_profi/docs/RTC02A-assembly_page_02.svg
+- hw/cam_profi/docs/RTC02A-assembly_page_01.svg
 mark: 50
+mod_ibom: hw/cam_profi/ibom/RTC02-ibom.html
+mod_scheme: doc/gen/RTC02-schematic.pdf
 status: 2
 tags:
 - mlab
