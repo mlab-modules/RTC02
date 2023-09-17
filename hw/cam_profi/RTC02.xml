@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/RTC02.kicad_sch</source>
+    <date>Sun Sep 17 09:33:41 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RTC02A</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RTC02.kicad_sch</source>
+        <comment number="1" value="Hig-precision Real Time Clock\ncontrolled through I2C interface"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>CH28-2032</value>
+      <footprint>Mlab_Batery:CH28-2032</footprint>
+      <libsource lib="RTC02-rescue" part="Battery" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e3eba3</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RTC02-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d26aa8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RTC02-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d26aee</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZV55C</value>
+      <footprint>Mlab_D:Diode-MiniMELF_Standard</footprint>
+      <libsource lib="RTC02-rescue" part="DIODE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d26757</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="RTC02-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e409f1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP_5X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP_5X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e44437</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JUMP2_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP2_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e46745</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e47608</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e476b3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e47704</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RTC02-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e36c68</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RTC02-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d299a2</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RTC02-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d2a387</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RTC02-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d2a075</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RTC02-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057d2a395</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RTC02-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e45477</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RTC02-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e2da38</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RTC02-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e2db98</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Mlab_SW:SW_PUSH_SMALL</footprint>
+      <libsource lib="RTC02-rescue" part="SW_PUSH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e4059a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PCF85263A</value>
+      <footprint>Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="RTC02-rescue" part="PCF85263A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e4274a</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ABS07-120-32.768KHZ-T</value>
+      <footprint>Mlab_XTAL:ABS07</footprint>
+      <libsource lib="RTC02-rescue" part="Crystal" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RTC02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057e494ee</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RTC02-rescue" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="Crystal">
+      <footprints>
+        <fp>Crystal_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="JUMP2_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP2_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="JUMP_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="JUMP_5X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_5X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="7" type="passive"/>
+        <pin num="9" name="10" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="PCF85263A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF85263A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSCI" type="input"/>
+        <pin num="2" name="OSCO" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="TS" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="CLK" type="input"/>
+        <pin num="9" name="INTA" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RTC02-rescue" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RTC02-rescue">
+      <uri>/github/workspace/hw/sch_pcb/RTC02-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="2" name="/INTA">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="INTA" pintype="input"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="7" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="5" name="/TS">
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="BT1" pin="2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="10" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M4" pin="1" pintype="input"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J2-1-Pad2)">
+      <node ref="J2" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(U1-OSCI)">
+      <node ref="U1" pin="1" pinfunction="OSCI" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(U1-OSCO)">
+      <node ref="U1" pin="2" pinfunction="OSCO" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(U1-VBAT)">
+      <node ref="BT1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VBAT" pintype="input"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VDD" pintype="input"/>
+    </net>
+  </nets>
+</export>
